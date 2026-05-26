@@ -55,7 +55,7 @@ function initializeServiceWorker() {
             .then(function(registration) {
     // B4. TODO - Once the service worker has been successfully registered, console
     //            log that it was successful.
-                    console.log('ServiceWorker registration sucessful with scope:', registration.scope);
+                    console.log('ServiceWorker registration successful with scope:', registration.scope);
                 })
                 .catch(function(err) {
     // B5. TODO - In the event that the service worker registration fails, console
